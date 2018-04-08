@@ -1,0 +1,12 @@
+[package]
+name = "rpm"
+version = "0.0.1"
+authors = ["Per Øyvind Karlsen <proyvind@moondrake.org>"]
+build = "src/build.rs"
+
+[dependencies]
+libc = "0.2.0"
+bindgen = "0.26.3"
+
+[build-dependencies]
+bindgen = "0.26"
