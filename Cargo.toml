@@ -1,8 +1,9 @@
 [package]
-name = "rpm"
+name = "rust_rpm"
 version = "0.0.1"
 authors = ["Per Øyvind Karlsen <proyvind@moondrake.org>"]
 build = "src/build.rs"
+include = [ "src/rust_rpmbuild.rs", ]
 
 [dependencies]
 libc = "0.2.0"
