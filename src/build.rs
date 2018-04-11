@@ -7,6 +7,8 @@ fn main() {
     // Tell cargo to tell rustc to link the system bzip2
     // shared library.
     println!("cargo:rustc-link-lib=rpm");
+    println!("cargo:rustc-link-lib=rpmbuild");
+    println!("cargo:rustc-link-lib=rpmio");
 
     // The bindgen::Builder is the main entry point
     // to bindgen, and lets you build up options for
